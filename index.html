@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
     <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS -->
+    <style>
+        p {
+            margin: 0; /* Supprime les marges verticales par défaut */
+        }
+    </style>
+
 </head>
 <body>
 
     <header>
-        <h1>Bienvenue sur mon Portfolio</h1>
+        <h1>Welcome to my portfolio</h1>
         <nav>
             <ul>
                 <li><a href="#about">À propos</a></li>
@@ -20,21 +26,68 @@
     </header>
 
     <section id="about">
-        <h2>À propos de moi</h2>
-        <p>Je suis un développeur web passionné par les technologies modernes.</p>
+        <h2>About me</h2>
+        <p>VBA, C#, Visual Studio, SQL Servers, Winform, WPF, Console, Github, Gitlab,  Python, Docker, Jenkins, Azure </p>
     </section>
 
     <section id="projects">
-        <h2>Mes Projets</h2>
+        <h2>Projects</h2>
         <div class="project">
-            <h3>Projet 1</h3>
-            <p>Description du projet 1.</p>
+            <h3>XLQL</h3>
+            <p>program to execute SQL query on a Excel file.</p>
+            <p>User: XLQL --data-file "Path\File.xls" --sql "SELECT * FROM tableName WHERE Age=51;"</p>
+            <p><strong>Programming Language:</strong> C# </p>
+            <p><strong>Framework:</strong> .NET 8 </p>
+            <p><strong>Database:</strong> SQLite </p>
+            <p><strong>Tools:</strong> Visual Studio, Gitlab, Github</p>
+            <p><strong>Design Patterns:</strong> Disposal, Strategy </p>
+            <img src="Images/ResultQuery.png" alt="description de l'image">
+            <h3>Cryptor</h3>
+            <p>program to crypt and encrypt</p>
+            <p>User: XLQL --data-file "Path\File.xls" --sql "SELECT * FROM tableName WHERE Age=51;"</p>
+            <p><strong>Programming Language:</strong> C# </p>
+            <p><strong>Framework:</strong> .NET 8, WPF </p>
+            <p><strong>Database:</strong> SQLite </p>
+            <p><strong>Tools:</strong> Visual Studio, Gitlab, Github </p>
+            <p><strong>Design Patterns:</strong> ??? </p>
+            <img src="Images/crypteurscreen.png" alt="description de l'image">
+            <!--<div class="packages">
+        <h4>packages</h4>
+        <p>System.CommandLine</p>
+        <p>System.Data.SQLite</p>
+    </div>
+    <div class="design patters">
+        <h4>design patterns</h4>
+        <p>Disposal pattern</p>
+        <p>Strtegie pattern</p>
+    </div>-->
+
         </div>
+
         <div class="project">
             <h3>Projet 2</h3>
             <p>Description du projet 2.</p>
         </div>
     </section>
+
+    <!--<section>
+        <h2>program to execute SQL query on a Excel file</h2>
+        <p>Console</p>
+        <p>XLQL --data-file EXCEL.xls --sqlQuery Query.txt</p>
+        <p>TDD</p>
+        <p>package: SQLite, commandline</p>
+        <p>Design patterns: Disposal, energy ...</p>
+        <p>Agillity</p>
+        <img src="~/Images/crypteurscreen.png" alt="Description de l'image" width="500" height="300">
+    </section>
+
+    <section>
+        <h2>app to encrypt/decrypt string</h2>
+        <p>WPF</p>
+        <p>TDD</p>
+        <p>SOLID</p>
+        <img src="~/Images/crypteurscreen.png" alt="Description de l'image" width="500" height="300">
+    </section>-->
 
     <section id="contact">
         <h2>Contactez-moi</h2>
