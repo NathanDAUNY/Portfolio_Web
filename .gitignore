@@ -1,0 +1,8 @@
+# Ignorer le dossier obj et ses sous-dossiers
+obj/
+
+# Ignorer le dossier .vs et son sous-dossier PortfolioStatic
+.vs/PortfolioStatic/
+
+# Ignorer tout le dossier .vs (si tu veux ignorer l'ensemble du dossier .vs)
+.vs/
